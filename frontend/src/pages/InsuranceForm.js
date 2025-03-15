@@ -300,7 +300,7 @@ const handleDownload = () => {
                                                                 fontSize: '50px'
                                                             }}
                                                         >
-                                                    { `$ ${prediction}` }
+                                                            { `INR ${(87 * prediction).toFixed(3)}` }
                                                         </span>
                                                     </Typography>
                                                 </ >
