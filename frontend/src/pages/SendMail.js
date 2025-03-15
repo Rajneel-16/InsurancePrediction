@@ -16,7 +16,8 @@ const EmailForm = () => {
         username,
         ...report
       }
-      const response = await fetch('http://127.0.0.1:8000/api/send-mail/', {
+      // const response = await fetch('http://127.0.0.1:8000/api/send-mail/', {
+      const response = await fetch('https://insurance-prediction-backend.vercel.app/api/send-mail', {
         method : "POST",
         body : JSON.stringify(data),
         headers : {

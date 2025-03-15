@@ -56,7 +56,8 @@ const InsuranceForm = () => {
     const handleSubmit = async (event) => {
         event.preventDefault();
         try {
-          const response = await fetch('http://127.0.0.1:8000/api/predict/', {
+          // const response = await fetch('http://127.0.0.1:8000/api/predict/', {
+          const response = await fetch('https://insurance-prediction-backend.vercel.app/api/predict/', {
             method: 'POST',
             body:  JSON.stringify(modifiedFormData),
             
