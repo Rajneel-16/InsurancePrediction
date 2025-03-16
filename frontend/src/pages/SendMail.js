@@ -28,7 +28,7 @@ const EmailForm = () => {
       if (response.status === 200) {
         setStatusMessage('Email successfully sent!');
       }
-      alert("email sended")
+      alert("Email sent successfully!")
     } catch (error) {
       console.error('Error sending email', error);
       setStatusMessage('Failed to send email. Please try again.');

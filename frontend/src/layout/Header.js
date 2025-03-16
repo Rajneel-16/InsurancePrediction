@@ -65,7 +65,7 @@ const Header = ({ onSidebarMobileOpen }) => {
                                         textDecoration: 'none'
                                     }}
                                 >
-                                    Predict My Insurance
+                                    PreditSure
                                 </Typography>
                             </IconButton>
                         </Box>
